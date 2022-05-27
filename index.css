@@ -12,6 +12,7 @@ html, body {
     width: 450px;
     background: #1F2937;
     padding: 52px;
+    margin: 0 auto;
 }
 
 #text-box {
