@@ -1,0 +1,114 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.green-text {
+    color: #10B981;
+}
+
+#main {
+    height: 450px;
+    width: 450px;
+    background: #1F2937;
+    padding: 52px;
+}
+
+#text-box {
+    width: 446px;
+    border-bottom: 1px solid #2F3E53;
+    margin: 34px auto 0;
+}
+
+h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin: 10px 0 60px;
+}
+
+button {
+    width: 223px;
+    height: 42px;
+    margin-bottom: 35px;
+    padding: 9px 17px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#length-input {
+    margin-left: 10px;
+    width: 50px;
+}
+
+.bi-lightning-fill {
+    margin-right: 15px;
+}
+
+#first-input, #second-input {
+    margin: 35px 0 27px;
+}
+
+#third-input, #fourth-input {
+    margin: 0 0 5px;
+}
+
+#first-input, #third-input {
+    float: left;
+}
+
+#second-input, #fourth-input {
+    float: right;
+}
+
+input {
+    width: 200px;
+    height: 39px;
+    background: #273549;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #55F991;
+}
+
+.bi-three-dots {
+    position: relative;     
+}
+
+input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    color: #202B3C;;
+}
+
